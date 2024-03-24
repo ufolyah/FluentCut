@@ -1,0 +1,3 @@
+[submodule "3rdParty/FluentCut_FFmpeg"]
+	path = 3rdParty/FluentCut_FFmpeg
+	url = git@github.com:ufolyah/FluentCut_FFmpeg.git

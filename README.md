@@ -6,6 +6,14 @@ Better Open Video Editor
 2. Application: Multiple GUIs and binary-size-sensitive builds focused on different practical usages, with Best UI and UEX.
 3. Feature plugins: provide optional ready-to-use features provided by third-party **open** libs as many as possible.
 
+# How to start
+```bash
+# pull submodule code
+git submodule init
+git submodule update
+
+```
+
 # Technical Choice
 ## Build
 1. Although currently we focus on Windows 10 22h2+, we should not break the probability of cross-platform support. So if any feature uses windows api, please write a wrapper for that.
