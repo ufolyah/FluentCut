@@ -1,0 +1,14 @@
+prefix=/e/proj/FluentCut/3rdParty/FluentCut_FFmpeg/../dist
+exec_prefix=${prefix}
+libdir=/e/proj/FluentCut/3rdParty/FluentCut_FFmpeg/../dist/lib
+includedir=/e/proj/FluentCut/3rdParty/FluentCut_FFmpeg/../dist/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 60.31.102
+Requires: libswresample >= 4.12.100, libavutil >= 58.29.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavcodec -libpath:./../dist/lib libx264.lib -libpath:../dist/lib x265.lib mfuuid.lib ole32.lib strmiids.lib ole32.lib user32.lib -libpath:../dist/lib zlib.lib
+Libs.private: 
+Cflags: -I${includedir}

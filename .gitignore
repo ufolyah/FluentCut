@@ -34,3 +34,5 @@
 
 # Qt Project
 build-*
+
+!/3rdParty/dist/**

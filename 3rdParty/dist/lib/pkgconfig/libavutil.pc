@@ -1,0 +1,14 @@
+prefix=/e/proj/FluentCut/3rdParty/FluentCut_FFmpeg/../dist
+exec_prefix=${prefix}
+libdir=/e/proj/FluentCut/3rdParty/FluentCut_FFmpeg/../dist/lib
+includedir=/e/proj/FluentCut/3rdParty/FluentCut_FFmpeg/../dist/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 58.29.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil user32.lib bcrypt.lib
+Libs.private: 
+Cflags: -I${includedir}

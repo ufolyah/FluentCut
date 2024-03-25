@@ -1,0 +1,7 @@
+prefix=./../dist
+includedir=${prefix}/include
+
+Name: ffnvcodec
+Description: FFmpeg version of Nvidia Codec SDK headers
+Version: 12.1.14.1
+Cflags: -I${includedir}

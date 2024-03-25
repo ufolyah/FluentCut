@@ -1,0 +1,14 @@
+prefix=/e/proj/FluentCut/3rdParty/FluentCut_FFmpeg/../dist
+exec_prefix=${prefix}
+libdir=/e/proj/FluentCut/3rdParty/FluentCut_FFmpeg/../dist/lib
+includedir=/e/proj/FluentCut/3rdParty/FluentCut_FFmpeg/../dist/include
+
+Name: libswresample
+Description: FFmpeg audio resampling library
+Version: 4.12.100
+Requires: libavutil >= 58.29.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lswresample 
+Libs.private: 
+Cflags: -I${includedir}

@@ -1,0 +1,14 @@
+prefix=/e/proj/FluentCut/3rdParty/FluentCut_FFmpeg/../dist
+exec_prefix=${prefix}
+libdir=/e/proj/FluentCut/3rdParty/FluentCut_FFmpeg/../dist/lib
+includedir=/e/proj/FluentCut/3rdParty/FluentCut_FFmpeg/../dist/include
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 7.5.100
+Requires: libavutil >= 58.29.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lswscale 
+Libs.private: 
+Cflags: -I${includedir}
