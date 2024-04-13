@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "algorithm": "cpp",
+        "charconv": "cpp",
+        "chrono": "cpp",
+        "deque": "cpp",
+        "exception": "cpp",
+        "format": "cpp",
+        "iomanip": "cpp",
+        "iterator": "cpp",
+        "list": "cpp",
+        "ostream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "vector": "cpp",
+        "xhash": "cpp",
+        "xlocale": "cpp",
+        "xlocmon": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp"
+    }
+}
